@@ -12,7 +12,7 @@
 *.ctxt
 
 # Package Files #
-*.jar
+# *.jar needed for gradle wrapper
 *.war
 *.nar
 *.ear
