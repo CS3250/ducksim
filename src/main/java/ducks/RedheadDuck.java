@@ -5,7 +5,7 @@ class RedheadDuck extends Duck {
   }
 
   public String quack() {
-    String s = "quack";
+    String s = "quuuaaack";
     return s;
   }
 }
