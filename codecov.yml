@@ -1,5 +1,5 @@
 codecov:
-  token: ${{ secrets.codecovsecret }}
+  token: ${{ secrets.CODECOVSECRET }}
   bot: "codecov-io"
   ci:
     - "travis.org"
