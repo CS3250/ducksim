@@ -11,4 +11,7 @@ before_script:
 script:
   - ./gradlew check
   - ./gradlew build --scan -s
+  - ./gradlew codeCoverageReport
 
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
